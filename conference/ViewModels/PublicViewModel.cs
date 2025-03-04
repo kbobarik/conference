@@ -107,4 +107,10 @@ public class PublicViewModel : ViewModelBase
        
         IsVisible = Events.Count == 0;
     }
+
+    public void NavigationToSignIn()
+    {
+        MainWindowViewModel.Self.UC = new SignInView();
+    }
+        
 }

@@ -27,7 +27,7 @@
                     </DataTemplate>
                 </ComboBox.ItemTemplate>
             </ComboBox>
-            <Button Content="Авторизоваться" HorizontalAlignment="Right"  Foreground="Black" Background="LightGray"></Button>
+            <Button Content="Авторизоваться" HorizontalAlignment="Right" Command="{Binding NavigationToSignIn}" Foreground="White" Background="DarkSeaGreen"></Button>
         </StackPanel>
         <ListBox Grid.Row="1" ItemsSource="{Binding Events}" Background="White">
             <ListBox.ItemTemplate>

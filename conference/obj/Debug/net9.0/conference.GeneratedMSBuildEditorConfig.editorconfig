@@ -32,7 +32,19 @@ build_property.EnableCodeStyleSeverity =
 [C:/Users/User/RiderProjects/conference/conference/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[C:/Users/User/RiderProjects/conference/conference/Views/JureView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [C:/Users/User/RiderProjects/conference/conference/Views/MainWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/User/RiderProjects/conference/conference/Views/ModeratorView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/User/RiderProjects/conference/conference/Views/OrganizatorView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/User/RiderProjects/conference/conference/Views/ParticipantView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [C:/Users/User/RiderProjects/conference/conference/Views/PublicView.axaml]

@@ -1,13 +1,15 @@
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
+using conference.ViewModels;
 
 namespace conference;
 
-public partial class UserControl1 : UserControl
+public partial class SignInView : UserControl
 {
-    public UserControl1()
+    public SignInView()
     {
         InitializeComponent();
+        DataContext = new SignInViewModel();
     }
 }

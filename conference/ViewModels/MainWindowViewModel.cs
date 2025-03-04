@@ -8,6 +8,7 @@ public class MainWindowViewModel : ViewModelBase
 {
     UserControl uc;
 
+    public static MainWindowViewModel Self;
     public UserControl UC
     {
         get => uc;
@@ -17,6 +18,7 @@ public class MainWindowViewModel : ViewModelBase
     public MainWindowViewModel()
     {
         UC = new PublicView();
+        Self = this;
     }
 
 }
