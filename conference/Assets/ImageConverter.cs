@@ -10,8 +10,16 @@ internal class ImageConverter : IValueConverter
 {
     public object? Convert(object? value, Type targetType, object? parameter, CultureInfo culture)
     {
-        if (value is not string) return null;
-        return (string)value == "" ? new Bitmap(".//Image//заглушка.png") : new Bitmap(".//Image//" + value);
+        if (value is not string filePath) return null;
+
+        if (!File.Exists(Path.GetFullPath(Environment.CurrentDirectory+@"\Image\"+filePath))||string.IsNullOrEmpty(filePath))
+        {
+            return new Bitmap(Path.GetFullPath(Environment.CurrentDirectory+"\\Image\\заглушка.png"));
+        }
+        else
+        {
+            return new Bitmap(Path.GetFullPath(Environment.CurrentDirectory+@"\Image\"+filePath));
+        }
     }
 
     public object? ConvertBack(object? value, Type targetType, object? parameter, CultureInfo culture)
