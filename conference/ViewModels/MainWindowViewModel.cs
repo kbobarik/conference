@@ -1,4 +1,5 @@
 ﻿using Avalonia.Controls;
+using conference.Models;
 using conference.Views;
 using ReactiveUI;
 
@@ -7,6 +8,13 @@ namespace conference.ViewModels;
 public class MainWindowViewModel : ViewModelBase
 {
     UserControl uc;
+    private User loginedUser;
+
+    public User LoginedUser
+    {
+        get => loginedUser;
+        set => this.RaiseAndSetIfChanged(ref loginedUser, value);
+    }
 
     public static MainWindowViewModel Self;
     public UserControl UC

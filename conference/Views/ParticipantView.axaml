@@ -4,5 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="conference.Views.ParticipantView">
-    Окно Участника
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+        <TextBlock Foreground="Black" FontSize="50" FontWeight="Bold">Окно Участника</TextBlock>
+    </StackPanel>
 </UserControl>

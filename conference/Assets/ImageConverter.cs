@@ -10,8 +10,8 @@ internal class ImageConverter : IValueConverter
 {
     public object? Convert(object? value, Type targetType, object? parameter, CultureInfo culture)
     {
-        if (value is string) return new Bitmap(".//EventsImage//"+value);
-        return null;
+        if (value is not string) return null;
+        return (string)value == "" ? new Bitmap(".//Image//заглушка.png") : new Bitmap(".//Image//" + value);
     }
 
     public object? ConvertBack(object? value, Type targetType, object? parameter, CultureInfo culture)

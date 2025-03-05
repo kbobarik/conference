@@ -50,5 +50,8 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 [C:/Users/User/RiderProjects/conference/conference/Views/PublicView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[C:/Users/User/RiderProjects/conference/conference/Views/RegistrationView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [C:/Users/User/RiderProjects/conference/conference/Views/SignInView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

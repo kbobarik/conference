@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("conference")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95ac43f61afc4159acf0554d73acde47752341b5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fa44e7e3312362ed147cee262b740fa412b7acd2")]
 [assembly: System.Reflection.AssemblyProductAttribute("conference")]
 [assembly: System.Reflection.AssemblyTitleAttribute("conference")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

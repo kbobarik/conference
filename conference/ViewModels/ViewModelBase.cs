@@ -5,5 +5,5 @@ namespace conference.ViewModels;
 
 public class ViewModelBase : ReactiveObject
 {
-    public StudingContext Db = new StudingContext();
+    public StudingContext Db = new();
 }

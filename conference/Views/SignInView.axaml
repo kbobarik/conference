@@ -19,6 +19,11 @@
                 <TextBlock Foreground="Black" >Введите пароль</TextBlock>
                 <TextBox Text="{Binding Password}" Foreground="Black" Background="White"></TextBox>
             </StackPanel>
+            <UserControl Content="{Binding CanvasCapcha}"></UserControl>
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Left" Width="400" Margin="10">
+                <TextBlock Foreground="Black" >Введите капчу</TextBlock>
+                <TextBox Text="{Binding InputCapcha}" Foreground="Black" Background="White"></TextBox>
+            </StackPanel>
             <TextBlock Text="{Binding Info}" Foreground="DarkRed"></TextBlock>
             <Button Content="Войти" Margin="10" IsEnabled="{Binding IsEnabled}"  Width="400" Foreground="White" Background="LightGreen"
                     VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Command="{Binding Enter}">
